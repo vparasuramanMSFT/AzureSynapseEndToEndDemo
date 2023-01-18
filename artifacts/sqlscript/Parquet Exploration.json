@@ -1,0 +1,20 @@
+{
+	"name": "Parquet Exploration",
+	"properties": {
+		"folder": {
+			"name": "Exploration"
+		},
+		"content": {
+			"query": "-- This is auto-generated code\nSELECT\n    year(created),\n    count(id)\nFROM\n    OPENROWSET(\n        BULK 'https://csesynapsee2edemoadls001.dfs.core.windows.net/processed/fhir/1tb/Claim/',\n        FORMAT = 'PARQUET'\n    ) AS [result]\n    group by\n    year(created)\n    order by 1\n",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "master",
+				"poolName": "Built-in"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}
