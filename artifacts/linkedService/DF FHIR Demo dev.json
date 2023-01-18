@@ -1,0 +1,11 @@
+{
+	"name": "DF FHIR Demo dev",
+	"properties": {
+		"annotations": [],
+		"type": "PowerBIWorkspace",
+		"typeProperties": {
+			"workspaceID": "96c8f39e-a468-403b-8b80-45f9cca84511",
+			"tenantID": "72f988bf-86f1-41af-91ab-2d7cd011db47"
+		}
+	}
+}
