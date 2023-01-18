@@ -182,7 +182,8 @@
 		],
 		"parameters": {
 			"TargetStorageName": {
-				"type": "string"
+				"type": "string",
+				"defaultValue": "csesynapsee2edemoadls001"
 			},
 			"DatasetSize": {
 				"type": "string",
