@@ -4,11 +4,11 @@
 		"parameters": {
 			"DatabaseName": {
 				"type": "string",
-				"defaultValue": "healthcare"
+				"defaultValue": "dedicatedsqlpool001"
 			},
 			"ServerName": {
 				"type": "string",
-				"defaultValue": "health"
+				"defaultValue": "csesynapsee2edemows001"
 			}
 		},
 		"annotations": [],
