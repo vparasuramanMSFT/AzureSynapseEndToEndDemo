@@ -32,7 +32,8 @@
 							"copyBehavior": "PreserveHierarchy"
 						}
 					},
-					"enableStaging": false
+					"enableStaging": false,
+					"dataIntegrationUnits": 256
 				},
 				"inputs": [
 					{
